@@ -115,3 +115,21 @@ header {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 1400px) {
+  .cinemaCards {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .cinemaBox {
+    width: 280px;
+    padding-bottom: 16px;
+    border-radius: 10px;
+    background-color: rgb(56, 24, 151);
+    color: white;
+  }
+}
+@media only screen and (max-width: 992px) {
+}
