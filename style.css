@@ -125,10 +125,6 @@ header {
 @media only screen and (max-width: 1200px) {
   .cinemaBox {
     width: 280px;
-    padding-bottom: 16px;
-    border-radius: 10px;
-    background-color: rgb(56, 24, 151);
-    color: white;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -139,4 +135,7 @@ header {
 }
 
 @media only screen and (max-width: 992px) {
+  .cinemaBox {
+    width: 250px;
+  }
 }
