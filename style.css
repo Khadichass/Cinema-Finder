@@ -134,8 +134,36 @@ header {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   .cinemaBox {
     width: 250px;
+  }
+}
+
+@media only screen and (max-width: 586px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 220px;
+  }
+  .title {
+    margin: 10px;
+  }
+
+  .search {
+    margin: 15px;
+  }
+
+  .btn-search {
+    margin: 15px;
+    margin-left: 35%;
+  }
+  .cinemaCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 20px auto;
   }
 }
